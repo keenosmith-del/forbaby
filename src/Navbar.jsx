@@ -3,6 +3,7 @@ import { Bell, Search, ShoppingCart } from "lucide-react";
 import { useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import logo from "./assets/logo.png";
 
 function Navbar({ setIsLoggedIn, cartCount }) {
     const location = useLocation();
@@ -55,7 +56,7 @@ function Navbar({ setIsLoggedIn, cartCount }) {
         {/* LEFT: LOGO */}
         <div className="nav-left">
             <img
-                src="/src/assets/logo.png"
+                src={logo}
                 alt="logo"
                 className="nav-logo"
                 onClick={handleLogoClick}
