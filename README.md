@@ -136,7 +136,8 @@ src/
 * notification icon click
 * when added to cart bring up sticky floating navbar
 * when click on toast notification; jump to cart
-* create item page per item. 
+* create item page per item.
+* disable checkout button is no items in cart
 
 ---
 
